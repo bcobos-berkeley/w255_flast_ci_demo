@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python S{{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
-        python-version: S {{ matrix.python-version }}
+        python-version: S{{ matrix.python-version }}
 
     # install python dependencies
     - name: Install dependencies
