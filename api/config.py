@@ -18,5 +18,7 @@ class ProductionConfig(Config):
 # Ex: In the following, you could put key-value pairs representing development or testing configs. 
  #Those of course would need to be defined as ProductionConfig is defined aboce. 
 env_config = {
-        "production": ProductionConfig
+        "production": ProductionConfig,
+        "testing": ProductionConfig,
+        "development": ProductionConfig
 }
