@@ -16,10 +16,10 @@ jobs:
     # checkout python
     - uses: actions/checkout@v2
     # install python
-    - name: Set up Python S{{ matrix.python-version }}
+    - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
-        python-version: S{{ matrix.python-version }}
+        python-version: ${{ matrix.python-version }}
 
     # install python dependencies
     - name: Install dependencies
